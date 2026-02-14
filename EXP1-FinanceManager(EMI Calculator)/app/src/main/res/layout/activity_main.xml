@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#002B2B"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINANCE MANAGER"
+        android:textColor="#008080"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btn_tax_nav"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:text="INCOME TAX CALCULATOR"
+        android:backgroundTint="#006666"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_emi_nav"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:text="EMI CALCULATOR"
+        android:backgroundTint="#006666"/>
+
+</LinearLayout>

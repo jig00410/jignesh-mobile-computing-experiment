@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INCOME TAX CALCULATOR"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"
+            android:background="#004D40"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/et_basic_salary"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Basic Salary"
+            android:textColor="#FFF"
+            android:textColorHint="#888"
+            android:background="#1E1E1E"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et_hra"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="HRA"
+            android:textColor="#FFF"
+            android:textColorHint="#888"
+            android:background="#1E1E1E"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et_sa"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Special Allowance"
+            android:textColor="#FFF"
+            android:textColorHint="#888"
+            android:background="#1E1E1E"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/et_lta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="LTA"
+            android:textColor="#FFF"
+            android:textColorHint="#888"
+            android:background="#1E1E1E"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btn_calc_tax"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CALCULATE"
+            android:backgroundTint="#00695C"/>
+
+        <TextView
+            android:id="@+id/tv_tax_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Tax: ₹0"
+            android:textColor="#00C853"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>
